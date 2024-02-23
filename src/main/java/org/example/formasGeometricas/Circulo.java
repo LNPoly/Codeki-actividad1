@@ -26,7 +26,7 @@ public class Circulo extends FormasGeometricas implements CalculoFormas {
     public void area() {
         CalculoFormas.super.area();
         //Área círculo: PI * radio ^ 2
-        double areaCirculo = Math.PI * Math.pow(radio, 2);
+        double areaCirculo = NUM_PI * radio * radio;
         System.out.println("El área del Círculo es de: " + areaCirculo + " cm.");
 
     }
@@ -36,7 +36,7 @@ public class Circulo extends FormasGeometricas implements CalculoFormas {
         CalculoFormas.super.Perimetro();
         //Perímetro círculo: 2 * PI * radio
 
-       double perimetroCirculo = 2 * Math.PI * radio;
+       double perimetroCirculo = 2 * NUM_PI * radio;
         System.out.println("La circunferencia del Círculo es de: " + perimetroCirculo + " cm.");
     }
 }

@@ -2,6 +2,7 @@ package org.example.formasGeometricas;
 
 public interface CalculoFormas {
 
+ public static double NUM_PI = 3.14;
 
     public default void area(){
 
